@@ -1,0 +1,1000 @@
+   18  git config --global credential.helper store  #so you don't have to retype your username & password 
+   19  git config --global credential.helper cache #so you don't have to retype your username & password     
+   20  git config --global core.editor nano #we use nano in this class
+   21  git clone https://github.com/Bio312/lab6-yourname 
+   22  git clone https://github.com/Bio312/lab6-Fatoujobe 
+   23  ls
+   24  cd lab6-Fatoujobe/
+   25  ls
+   26  git add .
+   27   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+   28   git pull --no-edit
+   29  git push
+   30  git pull --no--edit
+   31  git add .
+   32   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+   33   git pull --no-edit
+   34   git push 
+   35  ls
+   36  cd labs/lab5/lab5-Fatoujobe/
+   37  ls
+   38  grep allhomologs.aligned.r50.fa > XP_001628345.aligned.r50.fas
+   39  ls
+   40  grep allhomologs.aligned.r50.fa > XP_001628345.aligned.r50.fas
+   41  grep -v X2 allhomologs.aligned.r50.fa > XP_001628345.aligned.r50.fas
+   42  ls
+   43  less XP_001628345.aligned.r50.fas
+   44  less allhomologs.aligned.r50.fa
+   45  cp XP_001628345.aligned.r50.fas ~/labs/lab6/lab6-Fatoujobe/
+   46  cd ~/labs/lab6/lab6-Fatoujobe/
+   47  ls
+   48  rm allhomologs.aligned.r50.fa
+   49  ls
+   50  nw_display XP_001628345.aligned.r50.fas
+   51  nw_display XP_001628345.aligned.r50.fas.treefile
+   52  iqtree -s XP_001628345.aligned.r50.fas -nt 2
+   53  ls
+   54  less XP_001628345.aligned.r50.fas.treefile
+   55  ls XP_001628345.aligned.r50.fas.treefile
+   56  ls XP_001628345.aligned.r50.fas.iqtree
+   57  less XP_001628345.aligned.r50.fas.iqtree
+   58  nw_display XP_001628345.aligned.r50.fas.treefile
+   59  ls
+   60  gotree draw png -w 1000 -i XP_001628345.aligned.r50.fas.treefile  -r -o  XP_001628345.aligned.r50.fas.png
+   61  gotree reroot midpoint -i XP_001628345.aligned.r50.fas.treefile -o XP_001628345.aligned.r50.fas.midpoint.treefile
+   62  nw_display   XP_001628345.aligned.r50.fas.midpoint.treefile
+   63  ls
+   64  nw_display -s  XP_001628345.aligned.r50.fa.midpoint.treefile -w 1000 -b 'opacity:0' >  XP_001628345.aligned.r50.fas.midpoint.svg
+   65  nw_display -s  XP_001628345.aligned.r50.fas.midpoint.treefile -w 1000 -b 'opacity:0' >  XP_001628345.aligned.r50.fas.midpoint.svg
+   66  nw_reroot XP_001628345.aligned.r50.fa.treefile Drosophila_melanogaster_Disks_large_1_DLG1_P31007 Nematostella_vectensis_disks_large_homolog_1_XP_001628345.2 Pocillopora_damicornis_A0A3M6TL78 Homo_sapiens_Disks_large_homolog_3_DLG3_Q92796 Homo_sapiens_Disks_large_homolog_4_DLG4_P78352 Homo_sapiens_Disks_large_homolog_1_DLG1_Q12959 Homo_sapiens_Disks_large_homolog_2_DLG2_Q15700 >XP_001628345.aligned.r50.fas.MendozaRoot.treefile
+   67  nw_reroot XP_001628345.aligned.r50.fas.treefile Drosophila_melanogaster_Disks_large_1_DLG1_P31007 Nematostella_vectensis_disks_large_homolog_1_XP_001628345.2 Pocillopora_damicornis_A0A3M6TL78 Homo_sapiens_Disks_large_homolog_3_DLG3_Q92796 Homo_sapiens_Disks_large_homolog_4_DLG4_P78352 Homo_sapiens_Disks_large_homolog_1_DLG1_Q12959 Homo_sapiens_Disks_large_homolog_2_DLG2_Q15700 >XP_001628345.aligned.r50.fas.MendozaRoot.treefile
+   68  less XP_001628345.aligned.r50.fas.treefile
+   69  nano XP_001628345.aligned.r50.fas
+   70  nw_reroot XP_001628345.aligned.r50.fas.treefile  >XP_001628345.aligned.r50.fas.MendozaRoot.treefile
+   71  ls
+   72  less XP_001628345.aligned.r50.fas.MendozaRoot.treefile
+   73  less XP_001628345.aligned.r50.fas
+   74  nw_display -s  XP_001628345.aligned.r50.fas.MendozaRoot.treefile -w 1000 -b 'opacity:0' >  XP_001628345.aligned.r50.fas.MendozaRoot.svg
+   75  git add .
+   76   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+   77   git pull --no-edit
+   78  git add .
+   79   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+   80   git pull --no-edit
+   81  git add .
+   82   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+   83   git pull --no-edit
+   84  git config --global credential.helper store  #so you don't have to retype your username & password 
+   85  git config --global credential.helper cache #so you don't have to retype your username & password     
+   86  git config --global core.editor nano #we use nano in this class
+   87  git add .
+   88   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+   89   git pull --no-edit
+   90  git add .
+   91   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+   92   git pull --no-edit
+   93  git config --global user.name 
+   94  git config --global user.email Fatoujobe@stonybrook.edu
+   95  git config --global credential.helper store  #so you don't have to retype your username & password 
+   96  git config --global credential.helper cache #so you don't have to retype your username & password     
+   97  git config --global core.editor nano #we use nano in this class
+   98  git add .
+   99   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  100   git pull --no-edit
+  101  git add .
+  102   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  103   git pull --no-edit
+  104  git add .
+  105   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  106   git pull --no-edit
+  107  git add .
+  108   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  109   git pull --no-edit
+  110  git push
+  111  ls
+  112  nw_topology XP_001628345.aligned.r50.fas.MendozaRoot.treefile | nw_display -s  -w 1000 > XP_001628345.aligned.r50.fas.MendozaRoot.cladogram.svg -
+  113  history > lab6.commandhistory.txt
+  114  git add .
+  115   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  116   git pull --no-edit
+  117  cd git add .
+  118   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  119   git pull --no-edit
+  120  git add .
+  121   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  122   git pull --no-edit
+  123  git push
+  124  history > lab6.commandhistory.txt
+  125  git add .
+  126   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  127   git pull --no-edit
+  128   git push 
+  129  nw_topology XP_001628345.aligned.r50.fas.MendozaRoot.treefile | nw_display -s  -w 1000 > XP_001628345.aligned.r50.fas.MendozaRoot.cladogram.svg -
+  130  ls
+  131    history > lab6.commandhistory.txt
+  132  git add .
+  133   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  134   git pull --no-edit
+  135  git push 
+  136  ls
+  137  cd labs/lab6/lab6-Fatoujobe/
+  138  ls
+  139  nano README.md
+  140  cd ~/labs/lab7
+  141  git clone https://github.com/Bio312/lab7-yourname 
+  142  git clone https://github.com/Bio312/lab7-Fatoujobe
+  143  cd lab7-Fatoujobe/
+  144  ls
+  145  cp ~/labs/lab6/lab6-yourname/family.tre family.tre
+  146  cp ~/labs/lab6/lab6-yourname/family.tre ~/labs/lab7/lab7-yourname/family.tre
+  147  cp ~/labs/lab6/lab6-yourname/family.tre .
+  148  cp ~/labs/lab6/lab6-Fatoujobe/family.tre family.tre
+  149  cp ~/labs/lab6/lab6-Fatoujobe/family.tre ~/labs/lab7/lab7-Fatoujobe/family.tre
+  150  cp ~/labs/lab6/lab6-Fatoujobe/family.tre .
+  151  cp ~/labs/lab6/lab6-Fatoujobe/family.tre family_supernewname.tre
+  152  ls
+  153  iqtree -s XP_001630613.aligned.r50.fa -bb 1000 -nt 2 --prefix XP_001630613.r50.ufboot
+  154  nw_reroot XP_001630613.r50.ufboot.treefile Drosophila_melanogaster_Disks_large_1_DLG1_P31007 Nematostella_vectensis_disks_large_homolog_1_XP_001638123.2 Pocillopora_damicornis_A0A3M6TL78 Homo_sapiens_Disks_large_homolog_3_DLG3_Q92796 Homo_sapiens_Disks_large_homolog_4_DLG4_P78352 Homo_sapiens_Disks_large_homolog_1_DLG1_Q12959 Homo_sapiens_Disks_large_homolog_2_DLG2_Q15700 >XP_001630613.r50.ufboot.MendozaRoot.treefile 
+  155  nw_display XP_001630613.r50.ufboot.MendozaRoot.treefile 
+  156  nw_display -s XP_001630613.r50.ufboot.MendozaRoot.treefile  -w 1000 -b 'opacity:0' > XP_001630613.r50.ufboot.MendozaRoot.svg
+  157  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar --help  
+  158  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b toybatch.txt --reconcile --speciestag prefix --savepng --treestats --events --homologtabletabs --phylogenomics 
+  159  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b toybatch.txt --reconcile --speciestag prefix --savepng --treestats --events --homologtabletabs --phylogenomics
+  160  ls
+  161  less toygenetree.tre.reconciled.png
+  162  ls
+  163  echo "(frog,(chick,mouse)Amniota)Tetrapoda;">toyspecies.tre
+  164  cat toyspecies.tre
+  165  echo "((frog_Alpha,(chick_Alpha,mouse_Alpha)),(frog_Beta,chick_Beta));}"
+  166  echo "((frog_Alpha,(chick_Alpha,mouse_Alpha)),(frog_Beta,chick_Beta));}">toygenetree.tre
+  167  ls
+  168  nano toybatch.txt
+  169  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b toybatch.txt --reconcile --speciestag prefix --savepng --treestats --events --homologtabletabs --phylogenomics
+  170  less java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b toybatch.txt --reconcile --speciestag prefix --savepng --treestats --events --homologtabletabs --phylogenomics
+  171  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b toybatch.txt --reconcile --speciestag prefix --savepng --treestats --events --homologtabletabs --phylogenomics
+  172  ls
+  173  less toybatch.txt.toyspecies.tre.duplication.txt
+  174  echo toyspecies.tre
+  175  echo toyspecies.tre toybatch.txt
+  176  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b toybatch.txt --reconcile --speciestag prefix --savepng --treestats --events --homologtabletabs --phylogenomics
+  177  ls
+  178  less View the reconciled gene tree: toygenetree.tre.reconciled.png
+  179  less toygenetree.tre.reconciled.png
+  180  toygenetree.tre.reconciled.png
+  181  sudo easy_install -U ete3 
+  182  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g toygenetree.tre.reconciled --include.species
+  183  ls
+  184  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g toygenetree.tre.reconciled --include.species
+  185  ls
+  186  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g toygenetree.tre.reconciled --include.species
+  187  ls
+  188  sudo easy_install -U ete3 
+  189  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g toygenetree.tre.reconciled --include.species
+  190  ls
+  191  (((Homo_sapiens,Strongylocentrotus_purpuratus)Deuterostomia,Drosophila_melanogaster)Bilateria,(Nematostella_vectensis,Pocillopora_damicornis)Cnidaria)Eumetazoa;
+  192  nano zobatch.txt
+  193  (((Homo_sapiens,Strongylocentrotus_purpuratus)Deuterostomia,Drosophila_melanogaster)Bilateria,(Nematostella_vectensis,Pocillopora_damicornis)Cnidaria)Eumetazoa;
+  194  nano zobatch.txt
+  195  cat species.tre
+  196  cat XP_001630613.r50.ufboot.MendozaRoot.treefile
+  197  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b zobatch.txt --reconcile --speciestag prefix  --savepng --treestats --events  --phylogenomics
+  198  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g XP_001630613.r50.ufboot.MendozaRoot.treefile.reconciled --include.species
+  199  nw_display  species.tre 
+  200  column -t -s $'\t' zobatch.txt.species.tre.geneCount.txt | less -S
+  201  sudo yum install numpy
+  202  sudo easy_install -U ete3
+  203  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g toygenetree.tre.reconciled --include.species
+  204  nw_display  species.tre 
+  205  less XP_001630613.r50.ufboot.MendozaRoot.treefile.reconciled.events.txt
+  206  column -t -s $'\t' zobatch.txt.species.tre.geneCount.txt | less -S
+  207  column -t -s $'\t' zobatch.txt.species.tre.geneGainLoss.txt | less -S
+  208  less XP_001630613.r50.ufboot.MendozaRoot.treefile.reconciled.events.txt
+  209  column -t -s $'\t' zobatch.txt.species.tre.geneGainLoss.txt | less -S
+  210      java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b zobatch.txt --root --speciestag prefix  --savepng --treestats --events  --phylogenomics 
+  211  less XP_001630613.r50.ufboot.MendozaRoot.treefile.reconciled.xml
+  212  column -t -s $'\t' zobatch.txt.species.tre.geneCount.txt | less -S
+  213  less zobatch.txt.species.tre.geneGainLoss.txt
+  214  git add .
+  215   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  216   git pull --no-edit
+  217  git push 
+  218  cd ~/labs/lab7
+  219  ls
+  220  cd lab7-Fatoujobe/
+  221  ls
+  222  nano README.md
+  223  column -t -s $'\t' zobatch.txt.species.tre.geneGainLoss.txt | less -S
+  224  cd ~/labs/lab8
+  225  cd lab8-Fatoujobe
+  226  ls
+  227  nano README.md 
+  228  cd ~/labs/lab7
+  229  git clone https://github.com/Bio312/lab7-Fatoujobe
+  230  cd lab7-yourname
+  231  ls
+  232  cd lab7-Fatoujobe
+  233  cp ~/labs/lab6/lab6-Fatoujobe/family.tre family.tre
+  234  cp ~/labs/lab6/lab6-Fatoujobe/family.tre ~/labs/lab7/lab7-Fatoujobe/family.tre
+  235  cp ~/labs/lab6/lab6-Fatoujobe/family.tre .
+  236  cp ~/labs/lab6/lab6-Fatoujobe/family.tre family_supernewname.tre
+  237  iqtree -s XP_001628345.aligned.r50.fa -bb 1000 -nt 2 --prefix XP_001628345.r50.ufboot
+  238  iqtree -s XP_001628345.aligned.r50.fas -bb 1000 -nt 2 --prefix XP_001628345.r50.ufboot
+  239  cd ~/labs/lab8
+  240  git clone https://github.com/Bio312/lab8-yourname 
+  241  git clone https://github.com/Bio312/lab8-Fatoujobe
+  242  cd lab8-Fatoujobe
+  243  git clone https://github.com/Bio312/lab8-Fatoujobe
+  244  cd lab8-yourname
+  245  cd lab8-Fatoujobe
+  246  cp ~/labs/lab7/lab7-yourname/XP_001630613.r50.ufboot.MendozaRoot.treefile .
+  247  cp ~/labs/lab7/lab7-Fatoujobe/XP_001630613.r50.ufboot.MendozaRoot.treefile .
+  248  cp ~/labs/lab7/lab7-Fatoujobe/XP_001630613.aligned.r50.fa .
+  249  cp ~/labs/lab7/lab7-Fatoujobe/XP_001630613.r50.ufboot.treefile .
+  250  cp ~/labs/lab7/lab7-Fatoujobe/species.tre .
+  251  cp ~/labs/lab7/lab7-yourname/zobatch.txt .
+  252  cp ~/labs/lab7/lab7-Fatoujobe/zobatch.txt .
+  253  --outputdir some_descriptive_folder_name
+  254  --outputdir some_descriptive_folder_Fatou
+  255  --outputdir some_descriptive_folder_Fatoujobe
+  256      java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b zobatch.txt --rearrange --speciestag prefix  --savepng --treestats --events  --outputdir zoreconcileRearrange --edgeweights name --threshold 90 
+  257  ls
+  258   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  259   git pull --no-edit
+  260   git push 
+  261  ls
+  262  git push
+  263    history > lab8.commandhistory.txt
+  264  git add .
+  265   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  266   git pull --no-edit
+  267  git push 
+  268  cd ../
+  269  cd /home/ec2-user/labs/lab8/lab8-Fatoujobe/
+  270  cd ~/labs/lab8/lab8-Fatoujobe/
+  271  pwd
+  272    java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -g zoreconcileRearrange/XP_001630613.r50.ufboot.MendozaRoot.treefile.rearrange.0   -s species.tre --reconcile --speciestag prefix  --treeoutput newick --nolosses
+  273  gotree unroot -i XP_001630613.r50.ufboot.MendozaRoot.treefile.rearrange.0.reconciled -o XP_001630613.r50.ufboot.unrooted.treefile.rearrange
+  274  cat XP_001630613.r50.ufboot.treefile XP_001630613.r50.ufboot.unrooted.treefile.rearrange > XP_001630613.r50.alternativetrees
+  275  iqtree -s XP_001630613.aligned.r50.fa -z XP_001630613.r50.alternativetrees -au -zb 10000 --prefix ZO1_altTrees -m LG+F+R5 -nt 2 -te XP_001630613.r50.ufboot.treefile
+  276  TreeIDAU...
+  277  1    ###
+  278  ls
+  279  less XP_001630613.r50.ufboot.treefile
+  280  cd ~/labs/lab8
+  281  cd lab8-yourname
+  282  cd lab8-Fatoujobe
+  283  ls
+  284  git status
+  285  git add .
+  286  git status
+  287  git commit -m "Added some trees"
+  288  git push
+  289  ls
+  290  nw_display XP_001630613.r50.ufboot.MendozaRoot.treefile
+  291  ls
+  292  cd zoreconcileRearrange/
+  293  ls
+  294  cd ..
+  295  ls
+  296  cd ../../lab7/lab7-Fatoujobe/
+  297  ls
+  298  ls ../../lab6/lab6-Fatoujobe/
+  299  cp ../../lab6/lab6-Fatoujobe/XP_001628345.aligned.r50.fas .
+  300  ls
+  301  history
+  302  git status
+  303  ls
+  304  iqtree -s XP_001628345.aligned.r50.fas -bb 1000 -nt 2 --prefix XP_001628345.r50.ufboot
+  305  nw_reroot XP_001628345.r50.ufboot.treefile Drosophila_melanogaster_Disks_large_1_DLG1_P31007 Nematostella_vectensis_disks_large_homolog_1_XP_001638123.2 Pocillopora_damicornis_A0A3M6TL78 Homo_sapiens_Disks_large_homolog_3_DLG3_Q92796 Homo_sapiens_Disks_large_homolog_4_DLG4_P78352 Homo_sapiens_Disks_large_homolog_1_DLG1_Q12959 Homo_sapiens_Disks_large_homolog_2_DLG2_Q15700 >XP_001628345.r50.ufboot.MendozaRoot.treefile 
+  306  nw_reroot XP_001628345.r50.ufboot.treefile Drosophila_melanogaster_Disks_large_1_DLG1_P31007 Nematostella_vectensis_disks_large_homolog_1_XP_001628345.2 Pocillopora_damicornis_A0A3M6TL78 Homo_sapiens_Disks_large_homolog_3_DLG3_Q92796 Homo_sapiens_Disks_large_homolog_4_DLG4_P78352 Homo_sapiens_Disks_large_homolog_1_DLG1_Q12959 Homo_sapiens_Disks_large_homolog_2_DLG2_Q15700 >XP_001628345.r50.ufboot.MendozaRoot.treefile 
+  307  cd ~/labs/lab8
+  308  cd lab8-Fatoujobe
+  309  cp ~/labs/lab7/lab7-Fatoujobe/XP-001628345.r50.ufboot.midpoint.treefile .
+  310  cp ~/labs/lab7/lab7-Fatoujobe/XP-001628345.r50.ufboot.midpoint.treefile
+  311  cp ~/labs/lab7/lab7-Fatoujobe/XP_001628345.r50.ufboot.midpoint.treefile .
+  312  cp ~/labs/lab7/lab7-Fatoujobe/XP_001628345.aligned.r50.fas 
+  313  cp ~/labs/lab7/lab7-Fatoujobe/XP_001628345.aligned.r50.fas .
+  314  cp ~/labs/lab7/lab7-Fatoujobe/XP_001628345.r50.ufboot.treefile .
+  315  cp ~/labs/lab7/lab7-Fatoujobe/species.tre .
+  316  cp ~/labs/lab7/lab7-Fatoujobe/mybatch.txt .
+  317  ls
+  318   java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b mybatch.txt --rearrange --speciestag prefix  --savepng --treestats --events  --outputdir zoreconcileRearrange --edgeweights name --threshold 90
+  319  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0 --include.species
+  320  ls
+  321   java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b mybatch.txt --rearrange --speciestag prefix  --savepng --treestats --events  --outputdir zoreconcileRearrange --edgeweights name --threshold 90
+  322  ls
+  323  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g XP_001630613.r50.ufboot.MendozaRoot.treefile.rearrange.0 --include.species
+  324  cd ..
+  325  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b mybatch.txt --rearrange --speciestag prefix  --savepng --treestats --events  --outputdir zoreconcileRearrange --edgeweights name --threshold 90 
+  326  cd lab7
+  327  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b mybatch.txt --rearrange --speciestag prefix  --savepng --treestats --events  --outputdir zoreconcileRearrange --edgeweights name --threshold 90 
+  328  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0 --include.species
+  329  cd lab7-Fatoujobe/
+  330  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0 --include.species
+  331  sudo yum remove numpy
+  332  easy install -m ete3
+  333  sudo rm -rf /usr/local/lib/python2.7/site-packages/ete3.egg
+  334  sudo yum install numpy
+  335  sudo easy_install -U ete3
+  336  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g toygenetree.tre.reconciled --include.species
+  337  cd ..
+  338  cd lab8/lab8-Fatoujobe/
+  339  cd ..
+  340  cd lab7
+  341  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0 --include.species
+  342  cd ../
+  343  cd /home/ec2-user/labs/lab8/lab8-yourname/
+  344  cd ..
+  345  cd /home/ec2-user/labs/lab8/lab8-yourname/
+  346  cd ..
+  347  cd /home/ec2-user/labs/lab8/lab8-yourname/
+  348  cd ..
+  349  cd /home/ec2-user/labs/lab8/lab8-yourname/
+  350  cd /home/ec2-user/labs/lab8/lab8-Fatoujobe/
+  351  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -g myreconcileRearrange/XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0   -s species.tre --reconcile --speciestag prefix  --treeoutput newick --nolosses
+  352  gotree unroot -i XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0.reconciled -o XP_001628345.r50.ufboot.unrooted.treefile.rearrange
+  353  ls
+  354  gotree unroot -i XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0.reconciled -o XP_001628345.r50.ufboot.unrooted.treefile.rearrange
+  355  git add .
+  356  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  357  git pull --no-edit
+  358  git push 
+  359  cd ~/labs/lab7
+  360  cd lab7-Fatoujobe
+  361  ls 
+  362  nano READEME.md
+  363  nano README.md
+  364  git add
+  365  git add .
+  366  git commit -a -m "Ading all new data files I generated in AWS to the repository."
+  367  git pull --no-edit
+  368  cd ..
+  369  cd lab8/lab8-Fatoujobe/
+  370  nano README.md
+  371  ls
+  372  cd labs/lab8
+  373  ls
+  374  cd lab8-Fatoujobe/
+  375  git add
+  376  git add .
+  377   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  378  git pull --no-edit
+  379  ls
+  380  cd ..
+  381  ls
+  382  cd ..
+  383  ls
+  384  cd ..
+  385  ls
+  386  cd labs
+  387  ls
+  388  cd lab8/lab8-Fatoujobe/
+  389  git add . 
+  390   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  391   git pull --no-edit
+  392  ls
+  393  nano My gene analysis
+  394  git add
+  395  git add . 
+  396  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  397  git pull --no-edit
+  398  ls
+  399  ls My gene analysis
+  400  less My gene analysis
+  401  git add
+  402  ls
+  403  git push
+  404  cd ~/labs/lab9
+  405  git clone https://github.com/Bio312/lab9-yourname 
+  406  git clone https://github.com/Bio312/lab9-Fatoujobe
+  407  ls
+  408  cd lab9-Fatoujobe/
+  409  cd labs/lab9/lab9-Fatoujobe/
+  410  ls
+  411  iprscan5   --email your.email@stonybrook.edu  --multifasta --useSeqId --sequence   XP_032239066.blastp.detail.filtered.ren.fas
+  412  cat *.tsv.txt > maguk.domains.all.tsv
+  413  grep Pfam maguk.domains.all.tsv >  maguk.domains.pfam.tsv
+  414   awk 'BEGIN{FS="\t"} {print $1"\t"$3"\t"$7"@"$8"@"$5}' maguk.domains.pfam.tsv | datamash -sW --group=1,2 collapse 3 | sed 's/,/\t/g' | sed 's/@/,/g' > maguk.domains.pfam.evol.tsv
+  415   cut -f 1 maguk.domains.pfam.tsv | sort | uniq -c
+  416  iprscan5   --email your.email@stonybrook.edu  --multifasta --useSeqId --sequence   yourgenefamily.blastp.detail.filtered.ren.fas
+  417  cat *.tsv.txt > yourgenefamily.domains.all.tsv
+  418  grep Pfam yourgenefamily.domains.all.tsv >  yourgenefamily.domains.pfam.tsv
+  419   awk 'BEGIN{FS="\t"} {print $1"\t"$3"\t"$7"@"$8"@"$5}' yourgenefamily.domains.pfam.tsv | datamash -sW --group=1,2 collapse 3 | sed 's/,/\t/g' | sed 's/@/,/g' > yourgenefamily.domains.pfam.evol.tsv
+  420  ls
+  421  iprscan5   --email your.email@stonybrook.edu  --multifasta --useSeqId --sequence   XP_001628345.blastp.detail.filtered.ren.fas
+  422  cd labs/lab8/lab8-Fatoujobe/
+  423  ls
+  424  nano README.md
+  425  cd ../../labs/lab5
+  426  cd ../../lab5
+  427  ls
+  428  cd lab5-Fatoujobe/
+  429  ls
+  430  cat XP_001628345.blastp.detail.filtered.fas > XP_001628345.blastp.detail.filtered.ren.fas
+  431  ls
+  432  cd labs/lab8/lab8-Fatoujobe/
+  433  ls
+  434    java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -g zoreconcileRearrange/XP_001630613.r50.ufboot.MendozaRoot.treefile.rearrange.0   -s species.tre --reconcile --speciestag prefix  --treeoutput newick --nolosses
+  435    java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -g zoreconcileRearrange/XP_001628345.r50.ufboot.MendozaRoot.treefile.rearrange.0   -s species.tre --reconcile --speciestag prefix  --treeoutput newick --nolos
+  436  ls
+  437    java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -g zoreconcileRearrange/XP_001630613.r50.ufboot.MendozaRoot.treefile.rearrange.0   -s species.tre --reconcile --speciestag prefix  --treeoutput newick --nolosses
+  438  ls
+  439  less mybatch.txt 
+  440  ls zoreconcileRearrange/
+  441    java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b mybatch.txt --rearrange --speciestag prefix --savepng --treestats --events --outputdir mygene --edgeweights name --threshold 90
+  442  ls
+  443  lss mygene/
+  444  ls mygene/
+  445  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g XP_001628345.r50.ufboot.unrooted.treefile.rearrange --include.species
+  446  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g mygene/XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0 --include.species
+  447  ls mygene/
+  448  less mygene/XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0.xml
+  449  git add . 
+  450  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  451   git pull --no-edit
+  452   git push 
+  453  cd ../
+  454  cd /home/ec2-user/labs/lab8/lab8-yourname/
+  455  cd lab8-Fatoujobe/
+  456  ls
+  457  ls mygene
+  458  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -g mygene/XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0   -s species.tre --reconcile --speciestag prefix  --treeoutput newick --nolosses
+  459  ls
+  460  ls mygene
+  461  ls
+  462  ls XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0.reconciled
+  463  less XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0.reconciled
+  464  gotree unroot -i XP_001628345.r50.ufboot.midpoint.treefile.rearrange.0.reconciled -o XP_001628345.r50.ufboot.unrooted.treefile.rearrange
+  465  cat XP_001628345.r50.ufboot.treefile XP_001628345.r50.ufboot.unrooted.treefile.rearrange > XP_001628345.r50.alternativetrees
+  466  iqtree -s XP_001628345.aligned.r50.fa -z XP_001628345.r50.alternativetrees -au -zb 10000 --prefix ZO1_altTrees -m LG+F+R5 -nt 2 -te XP_001628345.r50.ufboot.treefile
+  467  ls
+  468  less XP_001628345.r50.ufboot.treefile
+  469  ls XP_001628345.r50.ufboot.treefile
+  470  ls XP_001628345.r50.alternativetrees
+  471  less XP_001628345.r50.alternativetrees
+  472  git add .
+  473   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  474   git pull --no-edit
+  475  git push
+  476    history > lab8.commandhistory.txt
+  477   git add .
+  478   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  479   git pull --no-edit
+  480  cd ..
+  481  cd lab9/lab9-Fatoujobe/
+  482  iprscan5   --email your.email@stonybrook.edu  --multifasta --useSeqId --sequence   XP_001628345.blastp.detail.filtered.ren.fas
+  483  ls
+  484  cp ~/labs/lab5/lab5-Fatoujobe/XP_001628345.blastp.detail.filtered.ren.fas 
+  485  cp ~/labs/lab5/lab5-Fatoujobe/XP_001628345.blastp.detail.filtered.ren.fas .
+  486  iprscan5   --email your.email@stonybrook.edu  --multifasta --useSeqId --sequence   XP_001628345.blastp.detail.filtered.ren.fas
+  487  cat *.tsv.txt > maguk.domains.all.tsv
+  488  grep Pfam maguk.domains.all.tsv >  maguk.domains.pfam.tsv
+  489   awk 'BEGIN{FS="\t"} {print $1"\t"$3"\t"$7"@"$8"@"$5}' maguk.domains.pfam.tsv | datamash -sW --group=1,2 collapse 3 | sed 's/,/\t/g' | sed 's/@/,/g' > maguk.domains.pfam.evol.tsv
+  490  ls
+  491  git add .
+  492  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  493   git pull --no-edit
+  494  git push
+  495  cd labs
+  496  ls
+  497  cd lab8/
+  498  cd lab8-Fatoujobe/
+  499  ls
+  500  nw_display XP_001628345.r50.ufboot.midpoint.treefile
+  501  nw_display -S XP_001628345.r50.ufboot.midpoint.treefile
+  502  cat XP_001628345.r50.ufboot.midpoint.treefile
+  503  nw_display -h
+  504  nw_display XP_001628345.r50.ufboot.midpoint.treefile
+  505  nw_display species.tre 
+  506  cd ../../lab7/lab7-Fatoujobe/
+  507  ls
+  508  nw_display XP_001628345.r50.ufboot.treefile 
+  509  cat XP_001628345.r50.ufboot.midpoint.treefile.reconciled
+  510  cat XP_001628345.r50.ufboot.midpoint.treefile
+  511  less XP_001628345.r50.ufboot.midpoint.treefile
+  512  ls
+  513  less zobatch.txt
+  514  less mybatch.txt
+  515  less XP_001628345.r50.ufboot.midpoint.treefile
+  516  cd ../../lab9/lab9-Fatoujobe/
+  517  ls
+  518  cp ~/labs/lab7/lab7-Fatoujobe/XP_001628345.r50.ufboot.midpoint.treefile .
+  519  git add .
+  520  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  521   git pull --no-edit
+  522   git push 
+  523  cd ../../lab8/lab8-Fatoujobe/
+  524  iqtree -s XP_001630613.aligned.r50.fa -z XP_001630613.r50.alternativetrees -au -zb 10000 --prefix ZO1_altTrees -m LG+F+R5 -nt 2 -te XP_001630613.r50.ufboot.treefile
+  525  --outputdir some_descriptive_folder_name
+  526  --outputdir some_descriptive_folder_XP_001630613.r50.ufboot.treefile
+  527  ls XP_001630613.r50.ufboot.treefile
+  528  less XP_001630613.r50.ufboot.treefile
+  529  cat XP_001630613.r50.ufboot.treefile XP_001630613.r50.ufboot.unrooted.treefile.rearrange > XP_001630613.r50.alternativetrees
+  530  less XP_001630613.r50.alternativetrees
+  531  ls
+  532  less XP_001628345.r50.alternativetrees
+  533  cd labs
+  534  cd lab8
+  535  ls
+  536  cd lab8-Fatoujobe/
+  537  ls
+  538      java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -b zobatch.txt --rearrange --speciestag prefix  --savepng --treestats --events  --outputdir zoreconcileRearrange --edgeweights name --threshold 90 
+  539  ls
+  540  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g XP_001630613.r50.ufboot.MendozaRoot.treefile.rearrange.0 --include.species
+  541  cd zoreconcileRearrange/
+  542  python ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g XP_001630613.r50.ufboot.MendozaRoot.treefile.rearrange.0 --include.species
+  543  ls
+  544  cd ..
+  545  git add .
+  546  ls
+  547  ls mygene/
+  548  git commit -m "xml"
+  549  git push
+  550  ls
+  551  git pull
+  552  ls
+  553  cd ../../lab9/
+  554  cd lab9-Fatoujobe/
+  555  ls
+  556  ll
+  557  ls maguk.domains.all.tsv 
+  558  less maguk.domains.all.tsv 
+  559  less maguk.domains.pfam.tsv 
+  560  less maguk.domains.pfam.evol.tsv 
+  561  cp ~/labs/lab8/lab8-Fatoujobe/XP_001630613.r50.ufboot.unrooted.treefile.rearrange .
+  562  pwd
+  563  git add .
+  564  git commit -m "Added the gene in the lab"
+  565  git push
+  566  ls
+  567  cp ~/labs/lab8/lab8-Fatoujobe/XP_001628345.r50.ufboot.unrooted.treefile.rearrange .
+  568  git add .
+  569  git commit -m "mygene"
+  570  git push
+  571  ls
+  572  less yourgenefamily.domains.all.tsv
+  573  less yourgenefamily.domains.all.pfam.evol.tsv
+  574  less yourgenefamily.domains.all.pfam.evol
+  575  less yourgenefamily.domains.pfam.evol.tsv 
+  576  rm yourgenefamily.domains.*
+  577  mkdir yourgene
+  578  cp XP_001628345.r50.ufboot.unrooted.treefile.rearrange yourgene/
+  579  cd yourgene/
+  580  ls
+  581  cd ..
+  582  mv XP_001628345.blastp.detail.filtered.ren.fas
+  583  mv XP_001628345.blastp.detail.filtered.ren.fas > yourgene
+  584  mv XP_001628345.blastp.detail.filtered.ren.fas > yourgene .
+  585  mv XP_001628345.blastp.detail.filtered.ren.fas > yourgene -r
+  586  mv XP_001628345.blastp.detail.filtered.ren.fas > yourgene -
+  587  mv XP_001628345.blastp.detail.filtered.ren.fas > yourgene -h
+  588  mv XP_001628345.blastp.detail.filtered.ren.fas > 
+  589  ls
+  590  mv XP_001628345.blastp.detail.filtered.ren.fas - yourgene -h
+  591  mv XP_001628345.blastp.detail.filtered.ren.fas - yourgene 
+  592  mv XP_001628345.blastp.detail.filtered.ren.fas ~ yourgene 
+  593  mv XP_001628345.blastp.detail.filtered.ren.fas ~/yourgene 
+  594  mv XP_001628345.blastp.detail.filtered.ren.fas ~ /yourgene 
+  595  mv XP_001628345.blastp.detail.filtered.ren.fas ~ /yourgene/
+  596  mv XP_001628345.blastp.detail.filtered.ren.fas  /yourgene/
+  597  ls  /yourgene/
+  598  ls  /yourgene
+  599  ls
+  600  ls yourgene/
+  601  iprscan5   --email fatou.jobe@stonybrook.edu  --multifasta --useSeqId --sequence  yourgene/XP_001628345.blastp.detail.filtered.ren.fas
+  602  cat *.tsv.txt > maguk.domains.all.tsv
+  603  grep Pfam maguk.domains.all.tsv >  maguk.domains.pfam.tsv
+  604   awk 'BEGIN{FS="\t"} {print $1"\t"$3"\t"$7"@"$8"@"$5}' maguk.domains.pfam.tsv | datamash -sW --group=1,2 collapse 3 | sed 's/,/\t/g' | sed 's/@/,/g' > maguk.domains.pfam.evol.tsv
+  605   cut -f 1 maguk.domains.pfam.tsv | sort | uniq -c
+  606  iprscan5   --email Fatou.jobe@stonybrook.edu  --multifasta --useSeqId --sequence   yourgenefamily.blastp.detail.filtered.ren.fas
+  607  cd yourgene
+  608  iprscan5   --email Fatou.jobe@stonybrook.edu  --multifasta --useSeqId --sequence   yourgenefamily.blastp.detail.filtered.ren.fas
+  609  cat *.tsv.txt > maguk.domains.all.tsv
+  610   awk 'BEGIN{FS="\t"} {print $1"\t"$3"\t"$7"@"$8"@"$5}' maguk.domains.pfam.tsv | datamash -sW --group=1,2 collapse 3 | sed 's/,/\t/g' | sed 's/@/,/g' > maguk.domains.pfam.evol.tsv
+  611   cut -f 1 maguk.domains.pfam.tsv | sort | uniq -c
+  612  iprscan5   --email your.email@stonybrook.edu  --multifasta --useSeqId --sequence   yourgenefamily.blastp.detail.filtered.ren.fas
+  613  ls
+  614  cd ..
+  615  iprscan5   --email Fatou.jobe@stonybrook.edu  --multifasta --useSeqId --sequence  yourgene/yourgenefamily.blastp.detail.filtered.ren.fas
+  616  pwd
+  617  iprscan5   --email Fatou.jobe@stonybrook.edu  --multifasta --useSeqId --sequence  yourgene/yourgenefamily.blastp.detail.filtered.ren.fas
+  618  cd yourgene
+  619  iprscan5   --email Fatou.jobe@stonybrook.edu  --multifasta --useSeqId --sequence  yourgenefamily.blastp.detail.filtered.ren.fas
+  620  iprscan5   --email Fatou.jobe@stonybrook.edu  --multifasta --useSeqId --sequence  yourgenefamily.blastp.detail.filtered.ren.fas 
+  621  ls
+  622  rm maguk.domains.*
+  623  ls
+  624  iprscan5   --email Fatou.jobe@stonybrook.edu  --multifasta --useSeqId --sequence  XP_001628345.blastp.detail.filtered.ren.fas 
+  625  iprscan5   --email Fatou.jobe@stonybrook.edu  --multifasta --useSeqId --sequence  XP_001628345.blastp.detail.filtered.ren.fas 
+  626  cd labs/lab9/lab9-Fatoujobe/
+  627  cd yourgene/
+  628  ls
+  629  cd labs/lab9/lab9-Fatoujobe/yourgene/
+  630  ls
+  631  cd labs/lab9/lab9-Fatoujobe/yourgene/
+  632  ls
+  633  iprscan5   --email Fatou.jobe@stonybrook.edu  --multifasta --useSeqId --sequence  XP_001628345.blastp.detail.filtered.ren.fas 
+  634  iprscan5   --email Fatou.jobe@stonybrook.edu  --multifasta --useSeqId --sequence  XP_001628345.blastp.detail.filtered.ren.fas 
+  635  cat *.tsv.txt > yourgenefamily.domains.all.tsv
+  636  grep Pfam yourgenefamily.domains.all.tsv >  yourgenefamily.domains.pfam.tsv
+  637   awk 'BEGIN{FS="\t"} {print $1"\t"$3"\t"$7"@"$8"@"$5}' yourgenefamily.domains.pfam.tsv | datamash -sW --group=1,2 collapse 3 | sed 's/,/\t/g' | sed 's/@/,/g' > yourgenefamily.domains.pfam.evol.tsv
+  638    history > lab9.commandhistory.txt
+  639  git add .
+  640   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  641   git pull --no-edit
+  642   git push 
+  643  cd ~/labs/lab10
+  644  la
+  645  le
+  646  ls
+  647  cd lab10-Fatoujobe/
+  648  ls
+  649  ls quast_results/
+  650  ls latest
+  651  ls latest  
+  652  ls results_2020_11_04_17_37_45
+  653  less results_2020_11_04_17_37_45
+  654  git add .
+  655   git add .
+  656   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  657  git add.
+  658  gitt add .
+  659  git add .
+  660   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  661   git pull --no-edit
+  662   git push 
+  663  ls
+  664  git add .
+  665   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  666   git pull --no-edit
+  667   git push 
+  668  cd ~/labs/lab10
+  669  ls
+  670  cd lab10-Fatoujobe/
+  671  ls
+  672  nano README.md 
+  673  git add .
+  674   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  675   git pull --no-edit
+  676   git push 
+  677  cd ~/labs/lab10
+  678  git clone https://github.com/Bio312/lab10-Fatoujobe
+  679  cd lab10-yourname
+  680  ls
+  681  cd lab10-Fatoujobe/
+  682  fastq-dump SRR9437431
+  683  echo SRR9437431.fastq >.gitignore
+  684  less -S SRR9437431.fastq
+  685  fastq-dump SRR10034524
+  686  echo SRR10034524.fastq >>.gitignore
+  687  less -S SRR10034524.fastq
+  688  sudo yum install -y freetype-devel libpng 
+  689  curl -O https://bootstrap.pypa.io/get-pip.py
+  690  python get-pip.py --user
+  691  rm get-pip.py
+  692  pip install matplotlib
+  693  pip install --upgrade setuptools
+  694  pip install quast
+  695  /home/ec2-user/data/refseq/vertebrate_mammalian/GCF_000001405.39/GCF_000001405.39_GRCh38.p13_genomic.fna
+  696  cd /home/ec2-user/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.fna
+  697  /home/ec2-user/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.fna
+  698  quast.py --large  /home/ec2-user/data/refseq/vertebrate_mammalian/GCF_000001405.39/GCF_000001405.39_GRCh38.p13_genomic.fna    --min-contig 0 --threads 2
+  699  quast.py --large  /home/ec2-user/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.fna    --min-contig 0 --threads 2
+  700   git add .
+  701   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  702   git pull --no-edit
+  703   git push 
+  704    history > lab10.commandhistory.txt
+  705   git add .
+  706   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  707   git pull --no-edit
+  708   git push 
+  709  ls
+  710  fastq-dump SRR9437431
+  711  echo SRR9437431.fastq >.gitignore
+  712  fastq-dump SRR10034524
+  713  echo SRR10034524.fastq >>.gitignore
+  714  less -S SRR10034524.fastq
+  715  sudo yum install -y freetype-devel libpng 
+  716  curl -O https://bootstrap.pypa.io/get-pip.py
+  717  python get-pip.py --user
+  718  rm get-pip.py
+  719  pip install matplotlib
+  720  pip install --upgrade setuptools
+  721  pip install quast
+  722  quast.py --large  /home/ec2-user/data/refseq/vertebrate_mammalian/GCF_000001405.39/GCF_000001405.39_GRCh38.p13_genomic.fna    --min-contig 0 --threads 2
+  723  quast.py --large  /home/ec2-user/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.fna    --min-contig 0 --threads 2
+  724    history > lab10.commandhistory.txt
+  725   git add .
+  726   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  727   git pull --no-edit
+  728   git push 
+  729  ls
+  730  cd ~/labs/lab11
+  731  git clone https://github.com/Bio312/lab11-yourname 
+  732  git clone https://github.com/Bio312/lab11-Fatoujobe
+  733  cd lab11-Fatoujobe/
+  734  fastq-dump SRR1297272  --gzip
+  735  fastq-dump SRR1297281 --gzip
+  736   less SRR1297281.fastq.gz
+  737  ~/tools/FastQC/fastqc SRR1297281.fastq.gz
+  738  sudo cp SRR1297281_fastqc.html /var/www/html/SRR1297281_fastqc.html
+  739  dig +short myip.opendns.com @resolver1.opendns.com
+  740  java -jar ~/tools/Trimmomatic-0.39/trimmomatic-0.39.jar SE -phred33 SRR1297281.fastq.gz SRR1297281.trimmed.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+  741  java -jar ~/tools/Trimmomatic-0.39/trimmomatic-0.39.jar SE -phred33 SRR1297272.fastq.gz SRR1297272.trimmed.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+  742  hisat2  -U SRR1297281.trimmed.fastq.gz -S SRR1297281.sam -x nemat_genome_index  -p 2
+  743     hisat2  -U SRR1297282.trimmed.fastq.gz -S SRR1297282.sam -x nemat_genome_index  -p 2
+  744     hisat2  -U SRR1297272.trimmed.fastq.gz -S SRR1297272.sam -x nemat_genome_index  -p 2
+  745     hisat2  -U SRR1297273.trimmed.fastq.gz -S SRR1297273.sam -x nemat_genome_index  -p 2
+  746  hisat2-build
+  747  ~/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.fna nemat_genome_index
+  748  ~/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomi
+  749  hisat2  -U SRR1297281.trimmed.fastq.gz -S SRR1297281.sam -x nemat_genome_index  -p 2
+  750  ~/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomi
+  751  c.fna nemat_genome_index
+  752  hisat2  -U SRR1297281.trimmed.fastq.gz -S SRR1297281.sam -x nemat_genome_index  -p 2
+  753  ls
+  754  hisat2-build ~/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.fna nemat_genome_index
+  755  hisat2  -U SRR1297281.trimmed.fastq.gz -S SRR1297281.sam -x nemat_genome_index  -p 2
+  756     hisat2  -U SRR1297282.trimmed.fastq.gz -S SRR1297282.sam -x nemat_genome_index  -p 2
+  757     hisat2  -U SRR1297272.trimmed.fastq.gz -S SRR1297272.sam -x nemat_genome_index  -p 2
+  758     hisat2  -U SRR1297273.trimmed.fastq.gz -S SRR1297273.sam -x nemat_genome_index  -p 2
+  759  samtools sort SRR1297281.sam -O BAM > SRR1297281.bam 
+  760  samtools index SRR1297281.bam
+  761  samtools sort SRR1297282.sam -O BAM > SRR1297282.bam 
+  762  samtools index SRR1297282.bam
+  763  samtools sort SRR1297272.sam -O BAM > SRR1297272.bam
+  764  samtools index SRR1297272.bam
+  765  samtools sort SRR1297273.sam -O BAM > SRR1297273.bam
+  766  samtools index SRR1297273.bam
+  767  ASCIIGenome -fa ~/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.fna /home/ec2-user/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.gff SRR1297281.bam SRR1297282.bam SRR1297272.bam SRR1297273.bam
+  768  goto NW_001834348.1:647984-659747
+  769  ASCIIGenome -fa ~/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.fna /home/ec2-user/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.gff SRR1297281.bam SRR1297282.bam SRR1297272.bam SRR1297273.bam
+  770  cuffdiff ~/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.gff SRR1297281.bam,SRR1297282.bam SRR1297272.bam,SRR1297273.bam -L control,copper -p 2
+  771  cd ~/labs/lab11
+  772  cd lab11-yourname
+  773  cd lab11-Fatoujobe
+  774  fastq-dump SRR1297273 --gzip
+  775  fastq-dump SRR1297282 --gzip
+  776  sudo service httpd start
+  777  sudo cp SRR1297281_fastqc.html /var/www/html/SRR1297281_fastqc.html
+  778  java -jar ~/tools/Trimmomatic-0.39/trimmomatic-0.39.jar SE -phred33 SRR1297282.fastq.gz SRR1297282.trimmed.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+  779  java -jar ~/tools/Trimmomatic-0.39/trimmomatic-0.39.jar SE -phred33 SRR1297273.fastq.gz SRR1297273.trimmed.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+  780  nano README.md 
+  781  goto NW_001834348.1:653886
+  782  ASCIIGenome -fa ~/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.fna /home/ec2-user/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.gff SRR1297281.bam SRR1297282.bam SRR1297272.bam SRR1297273.bam
+  783   samtools sort SRR1297273.sam -O BAM > SRR1297273.bam
+  784  cd ~/labs/lab9
+  785  cd lab9-Fatoujobe/
+  786  ls
+  787  cd ~/labs/lab7
+  788  cd lab7-Fatoujobe/
+  789  git add .
+  790   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  791   git pull --no-edit
+  792  git push
+  793  cd ../../labs8
+  794  cd /../../labs8
+  795  cd ../../../labs8
+  796  cd ..
+  797  cd lab8
+  798  cd lab8-Fatoujobe/
+  799  ls
+  800   git add .
+  801   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  802   git pull --no-edit
+  803   git push 
+  804  cd ..
+  805  cd lab6
+  806  cd lab6-Fatoujobe/
+  807  git add .
+  808  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  809   git pull --no-edit
+  810   git push 
+  811  cd labs/lab11
+  812  ls
+  813  cd lab11-Fatoujobe/
+  814  cd labs
+  815  cd lab10
+  816   git add .
+  817   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  818  ls
+  819  cd lab10-Fatoujobe/
+  820  ls
+  821  ls -a
+  822  nano .gitignore 
+  823  ls -l
+  824  ls -lh
+  825  git pull
+  826  git add .
+  827  git commit -m "I am done with the lab"
+  828  git push
+  829  rm .git -rf
+  830  ls
+  831  git init
+  832  cd ..
+  833  mkdir test
+  834  cd test/
+  835  git clone https://github.com/Bio312/lab10-Fatoujobe
+  836  ls
+  837  cd ..
+  838  ls
+  839  mv lab10-Fatoujobe/* test/lab10-Fatoujobe/
+  840  ls test/lab10-Fatoujobe/
+  841  rm lab10-Fatoujobe/ -rf
+  842  mv test/lab10-Fatoujobe/ .
+  843  ls
+  844  rm test/
+  845  rm test/ -rf
+  846  cd lab10-Fatoujobe/
+  847  git add .
+  848  git pull
+  849  git add .
+  850  nano .gitignore 
+  851  ls
+  852  git status
+  853  git add README.md
+  854  git add quast_results/
+  855  ls quast_results/
+  856  git add lab10.commandhistory.txt
+  857  git commit -m "CommandHistory"
+  858  git push
+  859  git add quast_results/ && git commit -m "quast added" && git push
+  860  cd ../labs/lab7
+  861  cd ..
+  862  cd la7
+  863  cd lab7
+  864  cd lab7-Fatoujobe/
+  865  ls
+  866  nw_display -s XP_001628345.r50.ufboot.midpoint.treefile  -w 1000 -b 'opacity:0' > XP_001628345.r50.ufboot.midpoint.svg
+  867  ls
+  868  git add .
+  869  git commit -m "added a file for midpoint"
+  870   git pull --no-edit
+  871  git add XP_001628345.r50.ufboot.midpoint.svg
+  872   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  873   git pull --no-edit
+  874   git push 
+  875  cd labs/lab11
+  876  ls
+  877  cd lab11-Fatoujobe/
+  878  ls
+  879  less gene_exp.diff 
+  880  ls
+  881  cat gene_exp.diff 
+  882  mlr --inidx --ifs "\t" --opprint cat gene_exp.diff | tail -n +2 | less
+  883  goto NW_001834348.1:653886
+  884  save tjp-view2.pdf
+  885  save tjp-view1.pdf
+  886  ASCIIGenome -fa ~/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.fna /home/ec2-user/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.gff SRR1297281.bam SRR1297282.bam SRR1297272.bam SRR1297273.bam
+  887  cuffdiff ~/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.gff SRR1297281.bam,SRR1297282.bam SRR1297272.bam,SRR1297273.bam -L control,copper -p 2
+  888  mlr --inidx --ifs "\t" --opprint cat gene_exp.diff | tail -n +2 | less
+  889  grep -c yes gene_exp.diff
+  890  sort -u -k13 gene_exp.diff | mlr --inidx --ifs "\t" --opprint cat | tail -n +2 | less
+  891  mlr --inidx --ifs "\t" --opprint cat gene_exp.diff | tail -n +2 | less
+  892  mlr -h
+  893  cd ~/tools
+  894  ls
+  895  wget https://github.com/dariober/ASCIIGenome/releases/download/v1.16.0/ASCIIGenome-1.16.0.zip
+  896  unzip ASCIIGenome-1.16.0.zip     
+  897  chmod a+x ASCIIGenome-1.16.0/ASCIIGenome
+  898  sudo cp ASCIIGenome-1.16.0/ASCIIGenome.jar /usr/bin/
+  899  sudo cp ASCIIGenome-1.16.0/ASCIIGenome /usr/bin/
+  900  rm -rf ASCII*
+  901  wget http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.2.1.Linux_x86_64.tar.gz
+  902  tar -zxvf cufflinks-2.2.1.Linux_x86_64.tar.gz
+  903  sudo cp cufflinks-2.2.1.Linux_x86_64/cuff* /usr/bin
+  904  sudo cp cufflinks-2.2.1.Linux_x86_64/g* /usr/bin
+  905  rm -rf cufflinks*
+  906  cd ~/labs/lab11/lab11-Fatoujobe/
+  907  mlr --inidx --ifs "\t" --opprint cat gene_exp.diff | tail -n +2 | less
+  908  less gene_exp.diff 
+  909  mlr --inidx --ifs "\t" --opprint cat gene_exp.diff | tail -n +2 | less
+  910  sudo yum install miller
+  911  sudo apt-get install miller
+  912  less gene_exp.diff 
+  913  grep -c yes gene_exp.diff 
+  914  less gene_exp.diff 
+  915  grep LOC5507725 gene_exp.diff 
+  916  ASCIIGenome -fa ~/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.fna /home/ec2-user/data/refseq/invertebrate/GCF_000209225.1/GCF_000209225.1_ASM20922v1_genomic.gff SRR1297281.bam SRR1297282.bam SRR1297272.bam SRR1297273.bam
+  917  cd labs/lab12
+  918  ls
+  919  stretcher -asequence seq1.fas -bsequence seq2.fas -gapopen 8 -gapextend 8 -outfile result.fas
+  920  nano seq1.fas 
+  921  ls
+  922  nano seq1.fas 
+  923  nano seq2.fas 
+  924  stretcher -asequence seq1.fas -bsequence seq2.fas -gapopen 8 -gapextend 8 -outfile result.fas
+  925  less result.fas 
+  926  cd ~/labs/lab13
+  927  git clone https://github.com/Bio312/lab13-Fatoujobe
+  928  cd lab11-Fatoujobe
+  929  cd lab13-Fatoujobe
+  930  nano input.fasta
+  931  R
+  932  nano input.fasta
+  933  R
+  934    history > lab13.commandhistory.txt
+  935   git add .
+  936   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  937   git pull --no-edit
+  938   git push 
+  939  cd labs
+  940  cd lab13/lab13-Fatoujobe/
+  941  ls
+  942  nano README.md 
+  943  cd labs/lab6/lab6-Fatoujobe/
+  944   git add .
+  945   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  946   git pull --no-edit
+  947   git push 
+  948  cd ../../lab8/lab8-Fatoujobe/
+  949   git add .
+  950   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  951   git pull --no-edit
+  952   git push 
+  953  cd ../../lab7/lab7-Fatoujobe/
+  954  cd ../../lab7/lab7-Fatoujobe/
+  955  cd labs/lab7/lab7-Fatoujobe/
+  956  git clone https://github.com/Bio312/lab14-fatoujobe
+  957  ls
+  958  mv myseq lab14-fatoujobe/
+  959  mv myseq-lab14-fatoujobe/
+  960  mv--help
+  961  less myseq.txt
+  962  cd
+  963  cd labs/lab14
+  964  cd lab14-fatoujobe/
+  965  ls
+  966  nano README.md 
+  967  cd ..
+  968  ls
+  969  mv myseq.txt lab14-fatoujobe/
+  970  ls
+  971  mv myseq.txt_.. lab14-fatoujobe/
+  972  mv myseq.txt_1.ct lab14-fatoujobe/
+  973  mv myseq.txt_1.pdf lab14-fatoujobe/
+  974  mv myseq.txt_1.ps lab14-fatoujobe/
+  975  ls
+  976  mv myseq.txt_1.ss lab14-fatoujobe/
+  977  mv myseq.txt_1.ann lab14-fatoujobe/
+  978  mv myseq.txt.ann lab14-fatoujobe/
+  979  cd ..
+  980  ls
+  981  git clone https://github.com/Fatoujobe/My-genes-analysis-.git
+  982  ls
+  983  cd My-genes-analysis-/
+  984  ls
+  985  cd ..
+  986  cd lab14
+  987  ls
+  988  mv myseq.txt.ct lab14-fatoujobe/
+  989  mv myseq.txt.det lab14-fatoujobe/
+  990  mv myseq.txt.h-num lab14-fatoujobe/
+  991  mv myseq.txt.log lab14-fatoujobe/
+  992  mv myseq.txt.out lab14-fatoujobe/
+  993  mv myseq.txt.plot lab14-fatoujobe/
+  994  mv myseq.txt.pnt lab14-fatoujobe/
+  995  mv myseq.txt.ps lab14-fatoujobe/
+  996  mv myseq.txt.sav lab14-fatoujobe/
+  997  mv myseq.txt.ss-count lab14-fatoujobe/
+  998  ls
+  999  cd lab14-fatoujobe/
+ 1000  ls
+ 1001  cd labs
+ 1002  cd lab14
+ 1003  ls
+ 1004  cd lab14-fatoujobe/
+ 1005  ls 
+ 1006   git add .
+ 1007   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+ 1008   git pull --no-edit
+ 1009   git push 
+ 1010  cd ..
+ 1011  ls
+ 1012  cd labs
+ 1013  ls 
+ 1014  cd My-genes-analysis-/
+ 1015  ls
+ 1016  nano README.md 
+ 1017    history > lab9.commandhistory.txt
